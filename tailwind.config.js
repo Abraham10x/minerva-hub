@@ -27,12 +27,18 @@ module.exports = {
       black: "#000000",
       neutral: "#D1D5DB",
       accentBlue: "#50C8FC",
-      secondary: "#005BD4",
+      secondary: "#00AEEF",
     },
     fontFamily: {
       sans: ["Red Hat Text", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        hero: 'url("/img/home/hero-bg.svg")',
+        product: 'url("/img/home/product-bg.svg")',
+        cta: 'url("/img/home/cta-bg.png")',
+      },
+    },
   },
   plugins: [],
 };
