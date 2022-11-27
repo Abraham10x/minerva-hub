@@ -10,9 +10,9 @@ const Header: FC = () => {
       <div className="md:flex items-center justify-between  py-4 px-7 sm:px-0 xl:container">
         <Link legacyBehavior href="/">
           <figure>
-            <Image 
-              className="w-1/2 md:w-full z-[999]" 
-              alt='logo'  
+            <Image
+              className="w-1/2 md:w-full z-[999]"
+              alt="logo"
               src="/img/brand-identity.png"
               width={500}
               height={500}
@@ -40,30 +40,37 @@ const Header: FC = () => {
             </Link>
           </li>
           <li className="lg:ml-0 xl:ml-8 text-xl md:my-8 sm:my-0 my-7 font-semibold font-sans">
+            <Link legacyBehavior href="/nciFund">
+              <a className="md:px-6 lg:px-3 hover:text-green duration-500 text-base">
+                About Us
+              </a>
+            </Link>
+          </li>
+          <li className="lg:ml-0 xl:ml-8 text-xl md:my-8 sm:my-0 my-7 font-semibold font-sans">
             <div className="dropdown">
               <Link legacyBehavior href="">
                 <a className="md:px-6 lg:px-3 hover:text-green duration-500 text-base">
-                  Guidelines <IoChevronDown className="inline mb-1 ml-1" />
+                  Products <IoChevronDown className="inline mb-1 ml-1" />
                 </a>
               </Link>
               <div className="dropdown-content px-3 hover:text-green duration-500 text-base">
-                <Link href="/guidelines/individual" className="nav-color lg:py-2">
-                  Individual
+                <Link
+                  href="/guidelines/individual"
+                  className="nav-color lg:py-2"
+                >
+                  Plux App
                 </Link>
                 <Link
                   href="/guidelines/service"
                   className="nav-color my-5 lg:my-0 lg:py-2 xl:my-0"
                 >
-                  Service Companies
-                </Link>
-                <Link href="/guidelines/support" className="nav-color lg:py-2">
-                  Support
+                  Core Banking App
                 </Link>
                 <Link
                   href="/guidelines/operators"
                   className="nav-color mt-5 mb-3 lg:py-2 lg:my-0 xl:my-0"
                 >
-                  Operators
+                  School Management App
                 </Link>
               </div>
             </div>
@@ -76,27 +83,16 @@ const Header: FC = () => {
             </Link>
           </li>
           <li className="lg:ml-0 xl:ml-8 text-xl md:my-8 sm:my-0 my-7 font-semibold font-sans">
-            <Link legacyBehavior href="/nciFund">
+            <Link legacyBehavior href="/">
               <a className="md:px-6 lg:px-3 hover:text-green duration-500 text-base">
-                NCI Fund
+                Careers
               </a>
             </Link>
           </li>
           <li className="lg:ml-0 xl:ml-8 text-xl md:my-8 sm:my-0 my-7 font-semibold font-sans">
-            <Link legacyBehavior href="/whistleBlower">
-              <a className="md:px-6 lg:px-3 hover:text-green duration-500 text-base">
-                Whistle Blower
-              </a>
-            </Link>
-          </li>
-          <li className="lg:ml-0 xl:ml-8 text-xl md:my-8 sm:my-0 my-7 font-semibold font-sans">
-            <Link
-              legacyBehavior
-              href="/auth/login"
-              className="xl:mx-8 xl:ml-36"
-            >
-              <a className="pointer md:ml-5 xl:ml-14 text-center text-white font-semibold rounded focus:outline-none bg-green border-2 border-green py-2 px-10 shadow-lg hover:bg-green/80 hover:border-green/80 ">
-                Login
+            <Link legacyBehavior href="/" className="xl:mx-8 xl:ml-36">
+              <a className="pointer md:ml-5 xl:ml-14 text-center text-white font-semibold rounded-lg focus:outline-none bg-blue border-2 border-green py-3 px-6 shadow-xl hover:bg-blue/90 ">
+                Contact Us
               </a>
             </Link>
           </li>

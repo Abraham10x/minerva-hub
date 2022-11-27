@@ -4,11 +4,13 @@ import {
   RiLinkedinBoxFill,
   RiFacebookCircleFill,
   RiTwitterFill,
+  RiMessage2Fill,
+  RiInstagramFill,
 } from "react-icons/ri";
 
 const SocialIcons: FC = () => {
   return (
-    <div className="flex flex-row space-x-3 text-white justify-start">
+    <div className="flex flex-row space-x-3 text-blue-blue-700 justify-start mt-5">
       <Link href="#">
         <RiTwitterFill size={22} />
       </Link>
@@ -17,6 +19,12 @@ const SocialIcons: FC = () => {
       </Link>
       <Link href="#">
         <RiLinkedinBoxFill size={22} />
+      </Link>
+      <Link href="#">
+        <RiMessage2Fill size={22} />
+      </Link>
+      <Link href="#">
+        <RiInstagramFill size={22} />
       </Link>
     </div>
   );
