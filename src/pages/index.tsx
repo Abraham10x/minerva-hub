@@ -5,6 +5,7 @@ import Seo from "@components/general/Seo";
 import Hero from "@components/home/Hero";
 import Servces from "@components/home/Services";
 import Product from "@components/home/Products";
+import Parnter from "@components/home/Partner";
 
 const Home: NextPage = () => {
   return (
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
       <Hero />
       <Servces />
       <Product />
+      <Parnter />
     </Layout>
   );
 };
