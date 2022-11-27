@@ -4,6 +4,7 @@ import { NextPage } from "next";
 import Seo from "@components/general/Seo";
 import Hero from "@components/home/Hero";
 import Servces from "@components/home/Services";
+import Product from "@components/home/Products";
 
 const Home: NextPage = () => {
   return (
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
       <Seo templateTitle="Home" />
       <Hero />
       <Servces />
+      <Product />
     </Layout>
   );
 };

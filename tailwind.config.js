@@ -32,7 +32,12 @@ module.exports = {
     fontFamily: {
       sans: ["Red Hat Text", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        hero: 'url("/img/home/hero-bg.svg")',
+        product: 'url("/img/home/product-bg.svg")',
+      },
+    },
   },
   plugins: [],
 };
