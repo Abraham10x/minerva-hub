@@ -6,6 +6,7 @@ import Hero from "@components/home/Hero";
 import Servces from "@components/home/Services";
 import Product from "@components/home/Products";
 import Parnter from "@components/home/Partner";
+import CTA from "@components/home/CTA";
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
       <Servces />
       <Product />
       <Parnter />
+      <CTA />
     </Layout>
   );
 };

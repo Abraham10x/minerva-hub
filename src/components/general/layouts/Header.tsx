@@ -7,7 +7,7 @@ const Header: FC = () => {
   const [open, setOpen] = useState<boolean>(false);
   return (
     <div className="shadow-md w-full xl:static lg:static md:static sm:fixed top-0 left-0 bg-white sm:px-10 z-40">
-      <div className="md:flex items-center justify-between  py-4 px-7 sm:px-0 xl:container">
+      <div className="md:flex items-center justify-between  py-7 lg:py-0 px-7 sm:px-0 xl:container">
         <Link legacyBehavior href="/">
           <figure>
             <Image
