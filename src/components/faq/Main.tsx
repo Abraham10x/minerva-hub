@@ -17,7 +17,7 @@ const Main: FC = () => {
               team or write us an email.
             </p>
           </div>
-          <Link legacyBehavior href="/" className="xl:mx-8 xl:ml-36">
+          <Link legacyBehavior href="/contact" className="xl:mx-8 xl:ml-36">
             <a className="pointer text-center text-gray-900 font-semibold rounded focus:outline-none border border-[#D1D5DB] py-2 px-10 hover:bg-gray-200 h-11 my-auto">
               Ask Your Question
             </a>

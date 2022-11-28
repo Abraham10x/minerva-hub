@@ -11,11 +11,11 @@ const Header: FC = () => {
         <Link legacyBehavior href="/">
           <figure>
             <Image
-              className="w-1/2 md:w-full z-[999]"
+              className=" z-[999]"
               alt="logo"
               src="/img/brand-identity.png"
-              width={500}
-              height={500}
+              width={200}
+              height={200}
             />
           </figure>
         </Link>
@@ -40,7 +40,7 @@ const Header: FC = () => {
             </Link>
           </li>
           <li className="lg:ml-0 xl:ml-8 text-xl md:my-8 sm:my-0 my-7 font-semibold font-sans">
-            <Link legacyBehavior href="/AboutUs">
+            <Link legacyBehavior href="/about">
               <a className="md:px-6 lg:px-3 hover:text-green duration-500 text-base">
                 About Us
               </a>
@@ -83,14 +83,14 @@ const Header: FC = () => {
             </Link>
           </li>
           <li className="lg:ml-0 xl:ml-8 text-xl md:my-8 sm:my-0 my-7 font-semibold font-sans">
-            <Link legacyBehavior href="/">
+            <Link legacyBehavior href="/careers">
               <a className="md:px-6 lg:px-3 hover:text-green duration-500 text-base">
                 Careers
               </a>
             </Link>
           </li>
           <li className="lg:ml-0 xl:ml-8 text-xl md:my-8 sm:my-0 my-7 font-semibold font-sans">
-            <Link legacyBehavior href="/ContactUs" className="xl:mx-8 xl:ml-36">
+            <Link legacyBehavior href="/contact" className="xl:mx-8 xl:ml-36">
               <a className="pointer md:ml-5 xl:ml-14 text-center text-white font-semibold rounded-lg focus:outline-none bg-blue border-2 border-green py-3 px-6 shadow-xl hover:bg-blue/90 ">
                 Contact Us
               </a>
