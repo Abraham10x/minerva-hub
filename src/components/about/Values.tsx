@@ -37,7 +37,7 @@ const Values: FC = () => {
         <Image
           className="absolute right-0 top-40"
           alt="logo"
-          src="/img/aboutpolygon.svg"
+          src="/img/about/aboutpolygon.svg"
           width={300}
           height={300}
         />
