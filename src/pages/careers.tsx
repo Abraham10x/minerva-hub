@@ -1,5 +1,6 @@
 import Beneficts from "@components/careers/Beneficts";
 import Hero from "@components/careers/Hero";
+import JobForm from "@components/careers/JobForm";
 import OpenPosition from "@components/careers/OpenPosition";
 import Seo from "@components/general/Seo";
 import { FC } from "react";
@@ -13,6 +14,7 @@ const career: FC = () => {
       <Hero />
       <Beneficts />
       <OpenPosition />
+      <JobForm />
     </Layout>
   );
 };
