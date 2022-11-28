@@ -5,7 +5,7 @@ import Choose from "@components/about/Choose";
 import Beneficts from "@components/about/Beneficts";
 import Team from "@components/about/Teams";
 import Seo from "@components/general/Seo";
-const AboutUs = () => {
+const About = () => {
   return (
     <Layout>
       <Seo templateTitle="About Us" />
@@ -18,4 +18,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default About;

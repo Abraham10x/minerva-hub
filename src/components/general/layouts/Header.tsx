@@ -34,14 +34,14 @@ const Header: FC = () => {
         >
           <li className="lg:ml-0 xl:ml-8 text-xl md:my-8 sm:my-0 my-7 font-semibold font-sans">
             <Link legacyBehavior href="/">
-              <a className="md:px-6 lg:px-3 hover:text-green duration-500 text-base">
+              <a className="md:px-6 lg:px-3 hover:text-secondary/80 duration-500 text-base">
                 Home
               </a>
             </Link>
           </li>
           <li className="lg:ml-0 xl:ml-8 text-xl md:my-8 sm:my-0 my-7 font-semibold font-sans">
             <Link legacyBehavior href="/about">
-              <a className="md:px-6 lg:px-3 hover:text-green duration-500 text-base">
+              <a className="md:px-6 lg:px-3 hover:text-secondary/80 duration-500 text-base">
                 About Us
               </a>
             </Link>
@@ -49,11 +49,11 @@ const Header: FC = () => {
           <li className="lg:ml-0 xl:ml-8 text-xl md:my-8 sm:my-0 my-7 font-semibold font-sans">
             <div className="dropdown">
               <Link legacyBehavior href="">
-                <a className="md:px-6 lg:px-3 hover:text-green duration-500 text-base">
+                <a className="md:px-6 lg:px-3 hover:text-secondary/80 duration-500 text-base">
                   Products <IoChevronDown className="inline mb-1 ml-1" />
                 </a>
               </Link>
-              <div className="dropdown-content px-3 hover:text-green duration-500 text-base">
+              <div className="dropdown-content px-3 hover:text-secondary/80 duration-500 text-base">
                 <Link
                   href="/guidelines/individual"
                   className="nav-color lg:py-2"
@@ -67,7 +67,7 @@ const Header: FC = () => {
                   Core Banking App
                 </Link>
                 <Link
-                  href="/guidelines/operators"
+                  href="/product/school"
                   className="nav-color mt-5 mb-3 lg:py-2 lg:my-0 xl:my-0"
                 >
                   School Management App
@@ -77,21 +77,21 @@ const Header: FC = () => {
           </li>
           <li className="lg:ml-0 xl:ml-8 text-xl md:my-8 sm:my-0 mb-7 mt-0 font-semibold font-sans">
             <Link legacyBehavior href="/faqs">
-              <a className="md:px-6 lg:px-3 hover:text-green duration-500 text-base">
+              <a className="md:px-6 lg:px-3 hover:text-secondary/80 duration-500 text-base">
                 FAQs
               </a>
             </Link>
           </li>
           <li className="lg:ml-0 xl:ml-8 text-xl md:my-8 sm:my-0 my-7 font-semibold font-sans">
             <Link legacyBehavior href="/careers">
-              <a className="md:px-6 lg:px-3 hover:text-green duration-500 text-base">
+              <a className="md:px-6 lg:px-3 hover:text-secondary/80 duration-500 text-base">
                 Careers
               </a>
             </Link>
           </li>
           <li className="lg:ml-0 xl:ml-8 text-xl md:my-8 sm:my-0 my-7 font-semibold font-sans">
             <Link legacyBehavior href="/contact" className="xl:mx-8 xl:ml-36">
-              <a className="pointer md:ml-5 xl:ml-14 text-center text-white font-semibold rounded-lg focus:outline-none bg-blue border-2 border-green py-3 px-6 shadow-xl hover:bg-blue/90 ">
+              <a className="pointer md:ml-5 xl:ml-14 text-center text-white font-semibold rounded-lg focus:outline-none bg-blue border-2 border-green py-3 px-6 shadow-xl hover:bg-blue/80 ">
                 Contact Us
               </a>
             </Link>
