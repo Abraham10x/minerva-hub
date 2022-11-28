@@ -21,7 +21,7 @@ const FaqList: FC<Props> = ({ id, panel, title, description }: Props) => {
           >
             {title}
             <svg
-              className="hs-accordion-active:hidden hs-accordion-active:text-green hs-accordion-active:group-hover:text-blue-600 block w-3 h-3 text-green group-hover:text-green/80"
+              className="hs-accordion-active:hidden hs-accordion-active:text-green hs-accordion-active:group-hover:text-blue-600 block w-3 h-3 text-secondary group-hover:text-secondary/70"
               width="16"
               height="16"
               viewBox="0 0 16 16"
@@ -36,7 +36,7 @@ const FaqList: FC<Props> = ({ id, panel, title, description }: Props) => {
               />
             </svg>
             <svg
-              className="hs-accordion-active:block hs-accordion-active:text-green hs-accordion-active:group-hover:text-blue-600 hidden w-3 h-3 text-green group-hover:text-green/80"
+              className="hs-accordion-active:block hs-accordion-active:text-green hs-accordion-active:group-hover:text-blue-600 hidden w-3 h-3 text-secondary group-hover:text-secondary/70"
               width="16"
               height="16"
               viewBox="0 0 16 16"

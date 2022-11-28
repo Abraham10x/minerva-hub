@@ -41,8 +41,10 @@ module.exports = {
         cta: 'url("/img/home/cta-bg.png")',
         faq: 'url("/img/faqs/faq-curve.svg")',
         faqHero: 'url("/img/faqs/faq-hero.svg")',
+        careerBg: 'url("/img/career/career-bg.svg")',
+        careerForm: 'url("/img/career/career-form-bg.svg")',
       },
     },
   },
-  plugins: [require("preline/plugin")],
+  plugins: [require("preline/plugin"), require("@tailwindcss/forms")],
 };
