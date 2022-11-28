@@ -6,6 +6,7 @@ module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{js,ts,jsx,tsx}",
+    "node_modules/preline/dist/*.js",
   ],
   theme: {
     colors: {
@@ -28,6 +29,7 @@ module.exports = {
       neutral: "#D1D5DB",
       accentBlue: "#50C8FC",
       secondary: "#00AEEF",
+      grayBg: "#F9F9F9",
     },
     fontFamily: {
       sans: ["Red Hat Text", "sans-serif"],
@@ -37,8 +39,10 @@ module.exports = {
         hero: 'url("/img/home/hero-bg.svg")',
         product: 'url("/img/home/product-bg.svg")',
         cta: 'url("/img/home/cta-bg.png")',
+        faq: 'url("/img/faqs/faq-curve.svg")',
+        faqHero: 'url("/img/faqs/faq-hero.svg")',
       },
     },
   },
-  plugins: [],
+  plugins: [require("preline/plugin")],
 };
