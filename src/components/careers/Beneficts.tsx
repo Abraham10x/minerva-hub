@@ -1,11 +1,18 @@
 import Image from "next/image";
 import { FC } from "react";
 
-const Values: FC = () => {
+const Beneficts: FC = () => {
   return (
     <div className="relative">
-      <div className="container sm:px-10 2xl:px-0 pt-10 lg:pt-28">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 z-30 gap-10 m-auto mb-36 mt-10">
+      <div className="container sm:px-10 2xl:px-0 pt-10 lg:pt-10">
+        <div className="my-16 text-center mx-auto">
+          <h3 className="font-bold text-4xl">Why Join Our Team</h3>
+          <p className="font-medium text-xl w-full sm:w-9/12 lg:w-2/4 mt-5 mx-auto">
+            Led ask possible mistress relation elegance eat likewise debating.
+            By message or am nothing amongst chiefly address.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 m-auto z-30 mb-36 mt-10">
           <div className="px-8 py-16 rounded-lg border border-[#DFDFD]">
             <h2 className="text-2xl font-bold mb-3 mt-2">
               Do believing oh disposing to supported
@@ -46,4 +53,4 @@ const Values: FC = () => {
   );
 };
 
-export default Values;
+export default Beneficts;
