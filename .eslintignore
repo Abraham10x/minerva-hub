@@ -3,3 +3,4 @@ next-env.d.ts
 node_modules
 package.json
 package-lock.json
+src/pages/_app.tsx
