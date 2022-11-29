@@ -5,8 +5,8 @@ import { FC } from "react";
 const Hero: FC = () => {
   return (
     <div className="bg-careerBg bg-no-repeat bg-cover">
-      <div className="container sm:px-10 2xl:px-0 flex flex-col sm:flex-row gap-10 py-32 align-middle">
-        <div className="flex flex-col basis-5/12 mt-5 lg:mt-28">
+      <div className="container sm:px-10 2xl:px-0 flex flex-col sm:flex-row gap-10 py-20 align-middle justify-between">
+        <div className="flex flex-col basis-[50%] mt-5 lg:mt-28">
           <h1 className="text-6xl my-4 font-sans text-center sm:text-left font-bold text-white">
             Smart Home Application
           </h1>
@@ -24,13 +24,13 @@ const Hero: FC = () => {
             </LinkButton>
           </div>
         </div>
-        <div className="basis-7/12">
+        <div className="basis-[50%]">
           <Image
             className="rounded-3xl"
             src="/img/products/school-hero.png"
             alt="team image"
-            width={1000}
-            height={1000}
+            width={500}
+            height={300}
           />
         </div>
       </div>
