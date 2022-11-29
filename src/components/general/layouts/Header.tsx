@@ -55,7 +55,7 @@ const Header: FC = () => {
               </Link>
               <div className="dropdown-content px-3 hover:text-secondary/80 duration-500 text-base">
                 <Link
-                  href="/guidelines/individual"
+                  href="/product/plux"
                   className="nav-color lg:py-2"
                 >
                   Plux App
