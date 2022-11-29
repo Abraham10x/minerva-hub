@@ -30,7 +30,7 @@ const Beneficts: FC = () => {
       </div>
       <div className="px-10 py-12 bg-[#F8F9FD] rounded-lg flex flex-col sm:flex-row gap-y-3 m-auto justify-between">
         <div>
-          <h2 className="text-3xl font-bold w-2/3">
+          <h2 className="text-3xl font-bold w-full sm:w-2/3 sm:mt-5">
             Track your crytpo portfolio on the best way possible
           </h2>
         </div>

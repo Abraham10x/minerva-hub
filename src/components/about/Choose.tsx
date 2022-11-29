@@ -46,7 +46,7 @@ const Choose: FC = () => {
         <span className="font-bold text-[#3734A9] text-lg">WHY MINERVAHUB</span>
         <h2 className="mt-3 text-5xl font-bold">Why Choose Us</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-20 pt-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-5 lg:px-20 pt-20">
           {BenefictsData.map((data, index) => (
             <div
               className="flex flex-row bg-white py-10 px-6 rounded-lg"
