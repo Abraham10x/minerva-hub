@@ -43,6 +43,7 @@ module.exports = {
         faqHero: 'url("/img/faqs/faq-hero.svg")',
         careerBg: 'url("/img/career/career-bg.svg")',
         careerForm: 'url("/img/career/career-form-bg.svg")',
+        productBg: 'url("/img/products/product-bg.svg")',
       },
     },
   },
