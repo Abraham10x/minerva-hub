@@ -15,6 +15,7 @@ const Footer: FC = () => {
               <figure>
                 <div className="relative mx-auto sm:mx-0 mb-5 w-full">
                   <Image
+                    className="mx-auto sm:mx-0"
                     src="/img/brand-identity.png"
                     alt="company logo"
                     width={240}
@@ -61,7 +62,7 @@ const Footer: FC = () => {
       </div>
       <div className="py-5 border-t border-gray-500 flex flex-row justify-center items-center container">
         <hr className="bg-white" />
-        <p className="font-normal mr-2 text-gray-900">
+        <p className="font-normal mr-2 text-gray-900 text-center">
           Copyright @ Minerva Hub 2022. All Rights Reserved.
         </p>
       </div>
