@@ -8,7 +8,7 @@ const Header: FC = () => {
   return (
     <div className="shadow-md w-full xl:static lg:static md:static sm:fixed top-0 left-0 bg-white sm:px-10 z-40">
       <div className="md:flex items-center justify-between  py-7 lg:py-0 px-7 sm:px-0 xl:container">
-        <Link legacyBehavior href="/">
+        <Link href="/" className="cursor-pointer">
           <figure>
             <Image
               className=" z-[999]"
