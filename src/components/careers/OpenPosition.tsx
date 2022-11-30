@@ -9,11 +9,11 @@ const OpenPosition: FC = () => {
       <h2 className="font-bold text-4xl text-[#2E2F6E] text-center">
         Open Positions
       </h2>
-      <div className=" my-24 flex flex-col px-20">
+      <div className=" my-24 flex flex-col  px-0 sm:px-20">
         {PositionsData.map((data, index) => (
           <>
             <div
-              className="flex flex-row justify-between px-10 sm:px-20 py-6 shadow-2xl cursor-pointer rounded-full my-11"
+              className="flex flex-row justify-between px-9 sm:px-20 py-6 shadow-2xl cursor-pointer rounded-full my-11"
               data-hs-overlay={`#${data.modal}`}
               key={index}
             >
