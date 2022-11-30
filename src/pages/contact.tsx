@@ -1,5 +1,4 @@
 import { Layout } from "../layouts/default";
-import Image from "next/image";
 import Hero from "@components/contact/Hero";
 import Main from "@components/contact/Main";
 import Seo from "@components/general/Seo";
