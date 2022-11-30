@@ -10,7 +10,7 @@ import {
 
 const SocialIcons: FC = () => {
   return (
-    <div className="flex flex-row space-x-3 text-blue-blue-700 justify-start mt-5">
+    <div className="flex flex-row space-x-3 text-blue-blue-700 justify-center sm:justify-start mt-5">
       <Link href="#">
         <RiTwitterFill size={22} />
       </Link>
