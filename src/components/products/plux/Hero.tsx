@@ -47,7 +47,7 @@ const Hero: FC = () => {
                   height={40}
                 />
               </div>
-              <div className="flex flex-col ml-2 text-left  justify-center ">
+              <div className="flex flex-col ml-1 text-left  justify-center ">
                 <span className="text-xs">GET IT ON</span>
                 <span className="text-2xl">Google Play</span>
               </div>
