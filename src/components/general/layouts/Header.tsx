@@ -54,14 +54,11 @@ const Header: FC = () => {
                 </a>
               </Link>
               <div className="dropdown-content px-3 hover:text-secondary/80 duration-500 text-base">
-                <Link
-                  href="/product/plux"
-                  className="nav-color lg:py-2"
-                >
+                <Link href="/product/plux" className="nav-color lg:py-2">
                   Plux App
                 </Link>
                 <Link
-                  href="/guidelines/service"
+                  href="/product/corebanking"
                   className="nav-color my-5 lg:my-0 lg:py-2 xl:my-0"
                 >
                   Core Banking App

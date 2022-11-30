@@ -8,7 +8,7 @@ const Hero: FC = () => {
       <div className="container sm:px-10 2xl:px-0 flex flex-col sm:flex-row gap-10 py-32 align-middle">
         <div className="flex flex-col basis-5/12 mt-5 lg:mt-28">
           <h1 className="text-6xl my-4 font-sans text-center sm:text-left font-bold text-white">
-            Plux
+            Core Banking
           </h1>
           <p className="text-lg text-[#FAFAFA]">
             Wisdom new and valley answer. Contented it so is discourse
