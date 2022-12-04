@@ -28,7 +28,10 @@ const Servces: FC = () => {
       <h2 className="font-bold text-5xl w-full lg:w-2/4 text-blue">
         We offer solutions for your business
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-24 gap-10 align-middle">
+      <div
+        data-aos="fade-up"
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-24 gap-10 align-middle"
+      >
         {serviceData.map((data, index) => (
           <div
             className="bg-center"

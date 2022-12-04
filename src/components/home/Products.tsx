@@ -64,7 +64,7 @@ const Product: FC = () => {
                 Get Started
               </LinkButton>
             </div>
-            <div className="basis-[55%] mt-10 lg:mt-0">
+            <div data-aos="zoom-out-up" className="basis-[55%] mt-10 lg:mt-0">
               <Image
                 src="/img/home/Banking.png"
                 alt="Banking App"
@@ -125,7 +125,7 @@ const Product: FC = () => {
                 Get Started
               </LinkButton>
             </div>
-            <div className="basis-[55%] mt-10 lg:mt-0">
+            <div data-aos="zoom-out-up" className="basis-[55%] mt-10 lg:mt-0">
               <Image
                 src="/img/home/plux.png"
                 alt="Banking App"
@@ -189,7 +189,7 @@ const Product: FC = () => {
                 Get Started
               </LinkButton>
             </div>
-            <div className="basis-[55%] mt-10 lg:mt-0">
+            <div data-aos="zoom-out-up" className="basis-[55%] mt-10 lg:mt-0">
               <Image
                 src="/img/home/school.png"
                 alt="Banking App"

@@ -49,6 +49,7 @@ const Choose: FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-5 lg:px-20 pt-20">
           {BenefictsData.map((data, index) => (
             <div
+              data-aos="flip-down"
               className="flex flex-row bg-white py-10 px-6 rounded-lg"
               key={index}
             >

@@ -93,3 +93,16 @@
     background-color: #ffffff !important;
   }
 }
+.hero-img {
+  margin: auto;
+  animation: rotation 60s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

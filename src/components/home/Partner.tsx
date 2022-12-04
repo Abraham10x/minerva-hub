@@ -17,7 +17,14 @@ const Parnter: FC = () => {
       </h3>
       <div className="flex flex-wrap gap-6 mt-6 justify-center">
         {parnters.map((data, index) => (
-          <Image src={data} alt="oracle" width={150} height={150} key={index} />
+          <Image
+            data-aos="flip-down"
+            src={data}
+            alt="oracle"
+            width={150}
+            height={150}
+            key={index}
+          />
         ))}
       </div>
     </div>
