@@ -15,7 +15,7 @@ const Hero: FC = () => {
               Meet the right platform to help realize.
             </span>
           </div>
-          <div className="basis-7/12">
+          <div className="basis-7/12" data-aos="zoom-in">
             <Image
               className=""
               alt="logo"

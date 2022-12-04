@@ -54,7 +54,11 @@ const Hero: FC = () => {
             </LinkButton>
           </div>
         </div>
-        <div className="basis-7/12 flex justify-center items-center">
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          className="basis-7/12 flex justify-center items-center"
+        >
           <Image
             className="rounded-3xl"
             src="/img/products/plux/pluxhero.png"

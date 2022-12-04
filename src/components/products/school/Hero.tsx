@@ -24,7 +24,11 @@ const Hero: FC = () => {
             </LinkButton>
           </div>
         </div>
-        <div className="basis-[50%]">
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          className="basis-[50%]"
+        >
           <Image
             className="rounded-3xl"
             src="/img/products/school-hero.png"

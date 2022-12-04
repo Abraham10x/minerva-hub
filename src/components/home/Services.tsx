@@ -28,7 +28,10 @@ const Servces: FC = () => {
       <h2 className="font-bold text-5xl sm:w-2/4 text-blue">
         We offer solutions for your business
       </h2>
-      <div className="flex flex-col sm:flex-row mt-24 gap-10 align-middle">
+      <div
+        data-aos="fade-up"
+        className="flex flex-col sm:flex-row mt-24 gap-10 align-middle"
+      >
         {serviceData.map((data, index) => (
           <div
             className="basis-[30%] bg-center"

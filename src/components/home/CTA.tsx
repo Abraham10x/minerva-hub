@@ -25,7 +25,7 @@ const CTA: FC = () => {
           <Image
             src="/img/home/globe.png"
             alt="globe"
-            className="basis-2/4"
+            className="basis-2/4 hero-img"
             width={350}
             height={350}
           />
