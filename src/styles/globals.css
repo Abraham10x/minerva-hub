@@ -94,6 +94,7 @@
   }
 }
 .hero-img {
+  margin: auto;
   animation: rotation 60s infinite linear;
 }
 
