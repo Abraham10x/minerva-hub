@@ -13,8 +13,8 @@ const Team: FC = () => {
     <div className="container sm:px-10 2xl:px-0 mt-36">
       <h2 className="text-5xl text-center font-bold my-7">Our Core Team</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-32">
-        {team.map((item) => (
-          <div className="text-center mt-6">
+        {team.map((item, index) => (
+          <div className="text-center mt-6" key={index}>
             <div className="">
               <Image
                 className="w-10/12 m-auto  rounded-lg"

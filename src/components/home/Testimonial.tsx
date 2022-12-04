@@ -5,41 +5,34 @@ const testimonial = [
   {
     id: 1,
     body: `              
-      Is be upon sang fond must shew. Really boy law county she unable
-      her sister. Feet you off its like like six. Among sex are leave
-      law built now. In built table in an rapid blush. Merits behind on
-      afraid or warmly. Believing neglected so so allowance existence
-      departure in. In design active temper be uneasy.
+        “ School Management with Minervahub is on point as we have 
+        reduced our cost to the barest minimum and increased the 
+        value we give to our students through impacting of education 
+        as the application runs our activities for us seamlessly ”
     `,
     image: "/img/home/taylor.png",
-    name: "Angela Taylor",
-    company: "CEO GetNextDesign",
+    name: "Janet Nana Jacobs",
+    company: "(Proprietor) Little Gifts Academy",
   },
   {
     id: 2,
     body: `              
-      Is be upon sang fond must shew. Really boy law county she unable
-      her sister. Feet you off its like like six. Among sex are leave
-      law built now. In built table in an rapid blush. Merits behind on
-      afraid or warmly. Believing neglected so so allowance existence
-      departure in. In design active temper be uneasy.
+        “ We are already opening branches in less than a month we 
+        started using MinervaHub’s Core Banking Application ”
     `,
     image: "/img/home/taylor.png",
-    name: "Angela Taylor",
-    company: "CEO GetNextDesign",
+    name: "Uchenna Ojukwu",
+    company: "(MD) Royal Marshal Cooperative",
   },
   {
     id: 3,
     body: `              
-      Is be upon sang fond must shew. Really boy law county she unable
-      her sister. Feet you off its like like six. Among sex are leave
-      law built now. In built table in an rapid blush. Merits behind on
-      afraid or warmly. Believing neglected so so allowance existence
-      departure in. In design active temper be uneasy.
+      “ Minervahub has been a blessing in disguise since we start 
+      partnering with them we have been growing ”
     `,
     image: "/img/home/taylor.png",
-    name: "Angela Taylor",
-    company: "CEO GetNextDesign",
+    name: "Jacob Asobo",
+    company: "(General Manager) Desal-mcs",
   },
 ];
 
@@ -48,19 +41,17 @@ const Testimonial: FC = () => {
     <div className="relative">
       <div className="my-20 container sm:px-10 mt-44">
         <p className="font-bold text-base text-blue-blue-600">Testimonials</p>
-        <h3 className="font-bold text-4xl my-4 sm:w-2/6">
+        <h3 className="font-bold text-4xl my-4 lg:w-2/6">
           Check what our clients are saying
         </h3>
-        <div className="flex flex-col sm:flex-row gap-10 my-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 my-16 h-[52rem] sm:h-[34rem] lg:h-72 ">
           {testimonial.map((data, index) => (
             <div
               key={index}
-              className="basis-2/6 border-2 rounded-2xl px-5 py-6"
+              className="basis-2/6 border-2 relative rounded-2xl px-5 py-6"
             >
-              <p className="font-light text-base italic pb-5 border-b text-gray-500">
-                {data.body}
-              </p>
-              <div className="flex flex-row mt-7 gap-8">
+              <p className="font-light text-base italic pb-5">{data.body}</p>
+              <div className="flex flex-row mt-7 gap-8 absolute bottom-5 w-[90%] border-t text-gray-500 pt-3">
                 <div className="rounded-full  bg-blue">
                   {" "}
                   <Image

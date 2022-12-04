@@ -45,6 +45,9 @@ module.exports = {
         careerForm: 'url("/img/career/career-form-bg.svg")',
         productBg: 'url("/img/products/product-bg.svg")',
       },
+      animation: {
+        "spin-slow": "spin 15s linear infinite",
+      },
     },
   },
   plugins: [require("preline/plugin"), require("@tailwindcss/forms")],

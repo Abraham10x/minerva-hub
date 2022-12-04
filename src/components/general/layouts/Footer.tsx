@@ -8,9 +8,9 @@ import SocialIcons from "./SocialIcons";
 const Footer: FC = () => {
   return (
     <footer className="bg-white">
-      <div className="container pt-12 pb-8 sm:px-10 2xl:px-0">
-        <div className="flex flex-col sm:flex-row justify-center pb-10 text-center sm:text-left gap-10">
-          <div className="basis-[35%]">
+      <div className="container pt-12 pb-8 2xl:px-0">
+        <div className="flex flex-col sm:flex-row justify-center flex-wrap pb-10 text-center sm:text-left sm:gap-20 lg:gap-10">
+          <div className="basis-full sm:basis-[40%] lg:basis-[35%]">
             <Link href="/">
               <figure>
                 <div className="relative mx-auto sm:mx-0 mb-5 w-full">

@@ -11,15 +11,16 @@ const Product: FC = () => {
       <div className="mt-10">
         {/* first product */}
         <div className="bg-product bg-top bg-no-repeat bg-cover">
-          <div className="container sm:px-10 flex flex-col sm:flex-row gap-y-10">
+          <div className="container sm:px-10 flex flex-col lg:flex-row gap-y-10">
             <div className=" basis-[45%] mt-32">
-              <h3 className="font-bold text-[2.8rem] leading-10">
-                All payments are linked to your Financy account
+              <h3 className="font-bold text-[2.8rem] leading-tight capitalize">
+                Core Banking Application (OZI)
               </h3>
               <p className="my-5 text-lg">
-                Why kept very ever home mrs. Considered sympathize ten
-                uncommonly occasional assistance sufficient not. Letter of on
-                become he tended active enable to.{" "}
+                Our Core Banking Application is an improved Banking platform As
+                A Service (BAAS), for Microfinance Banks and Institutions,
+                Thrift operators, Cooperative Societies, Fintech, Savings and
+                Loans, Micro-Credit etc
               </p>
               <div className="my-4">
                 <div className="flex gap-5">
@@ -30,7 +31,7 @@ const Product: FC = () => {
                     height={30}
                   />
                   <p className="text-lg font-medium">
-                    Get Overview at a glance
+                    Unlimited accounts opening for all customers/member
                   </p>
                 </div>
                 <div className="flex gap-5 my-3">
@@ -41,7 +42,7 @@ const Product: FC = () => {
                     height={30}
                   />
                   <p className="text-lg font-medium">
-                    Deoposit funds easily, securlity
+                    Automated cashflow management and tracking
                   </p>
                 </div>
                 <div className="flex gap-5">
@@ -52,18 +53,18 @@ const Product: FC = () => {
                     height={30}
                   />
                   <p className="text-lg font-medium">
-                    Get Overview at a glance
+                    Savings and Loan Management
                   </p>
                 </div>
               </div>
               <LinkButton
-                link="/"
-                className="rounded-lg mt-5 px-10 py-3 font-bold text-base text-white bg-blue"
+                link="/product/corebanking"
+                className="rounded-lg mt-5 px-10 py-3 font-bold text-base text-white bg-blue hover:bg-blue/70"
               >
                 Get Started
               </LinkButton>
             </div>
-            <div className="basis-[55%]">
+            <div className="basis-[55%] mt-10 lg:mt-0">
               <Image
                 src="/img/home/Banking.png"
                 alt="Banking App"
@@ -77,15 +78,14 @@ const Product: FC = () => {
         {/* second products */}
 
         <div className="bg-product bg-top bg-no-repeat bg-cover">
-          <div className="container sm:px-10 flex flex-col sm:flex-row-reverse gap-y-10">
+          <div className="container sm:px-10 flex flex-col lg:flex-row-reverse gap-y-10">
             <div className=" basis-[45%] mt-32">
-              <h3 className="font-bold text-[2.8rem] leading-10">
-                All payments are linked to your Financy account
+              <h3 className="font-bold text-[2.8rem] leading-10 capitalize">
+                Plux
               </h3>
               <p className="my-5 text-lg">
-                Why kept very ever home mrs. Considered sympathize ten
-                uncommonly occasional assistance sufficient not. Letter of on
-                become he tended active enable to.{" "}
+                An electricity bill payment mobile app for both prepaid and
+                postpaid customers.
               </p>
               <div className="my-4">
                 <div className="flex gap-5">
@@ -95,9 +95,7 @@ const Product: FC = () => {
                     width={30}
                     height={30}
                   />
-                  <p className="text-lg font-medium">
-                    Get Overview at a glance
-                  </p>
+                  <p className="text-lg font-medium">Zero commission charge</p>
                 </div>
                 <div className="flex gap-5 my-3">
                   <Image
@@ -107,7 +105,7 @@ const Product: FC = () => {
                     height={30}
                   />
                   <p className="text-lg font-medium">
-                    Deoposit funds easily, securlity
+                    Can be used to make payments for both prepaid and postpaid
                   </p>
                 </div>
                 <div className="flex gap-5">
@@ -117,19 +115,17 @@ const Product: FC = () => {
                     width={30}
                     height={30}
                   />
-                  <p className="text-lg font-medium">
-                    Get Overview at a glance
-                  </p>
+                  <p className="text-lg font-medium">Easy payment tracking</p>
                 </div>
               </div>
               <LinkButton
-                link="/"
-                className="rounded-lg mt-5 px-10 py-3 font-bold text-base text-white bg-blue"
+                link="/product/plux"
+                className="rounded-lg mt-5 px-10 py-3 font-bold text-base text-white bg-blue hover:bg-blue/70"
               >
                 Get Started
               </LinkButton>
             </div>
-            <div className="basis-[55%]">
+            <div className="basis-[55%] mt-10 lg:mt-0">
               <Image
                 src="/img/home/plux.png"
                 alt="Banking App"
@@ -142,15 +138,16 @@ const Product: FC = () => {
 
         {/* third Product */}
         <div className="bg-product bg-top bg-no-repeat bg-cover">
-          <div className="container sm:px-10 flex flex-col sm:flex-row gap-x-32 gap-y-10">
+          <div className="container sm:px-10 flex flex-col lg:flex-row gap-x-32 gap-y-10">
             <div className=" basis-[45%] mt-32">
-              <h3 className="font-bold text-[2.8rem] leading-10">
-                All payments are linked to your Financy account
+              <h3 className="font-bold text-[2.8rem] leading-tight capitalize">
+                School Management System
               </h3>
               <p className="my-5 text-lg">
-                Why kept very ever home mrs. Considered sympathize ten
-                uncommonly occasional assistance sufficient not. Letter of on
-                become he tended active enable to.{" "}
+                It helps schools achieve great efficiency in all functions. The
+                best solution for managing daily school operations. It allows
+                school to manage registration, admissions, academic calendar,
+                attendance, and more.
               </p>
               <div className="my-4">
                 <div className="flex gap-5">
@@ -160,9 +157,7 @@ const Product: FC = () => {
                     width={30}
                     height={30}
                   />
-                  <p className="text-lg font-medium">
-                    Get Overview at a glance
-                  </p>
+                  <p className="text-lg font-medium">Free Sign up and usage</p>
                 </div>
                 <div className="flex gap-5 my-3">
                   <Image
@@ -172,7 +167,7 @@ const Product: FC = () => {
                     height={30}
                   />
                   <p className="text-lg font-medium">
-                    Deoposit funds easily, securlity
+                    Generate school fees payment receipts and invoices
                   </p>
                 </div>
                 <div className="flex gap-5">
@@ -183,18 +178,18 @@ const Product: FC = () => {
                     height={30}
                   />
                   <p className="text-lg font-medium">
-                    Get Overview at a glance
+                    Monitor fees payments accordingly
                   </p>
                 </div>
               </div>
               <LinkButton
-                link="/"
-                className="rounded-lg mt-5 px-10 py-3 font-bold text-base text-white bg-blue"
+                link="/product/school"
+                className="rounded-lg mt-5 px-10 py-3 font-bold text-base text-white bg-blue hover:bg-blue/70"
               >
                 Get Started
               </LinkButton>
             </div>
-            <div className="basis-[55%]">
+            <div className="basis-[55%] mt-10 lg:mt-0">
               <Image
                 src="/img/home/school.png"
                 alt="Banking App"
