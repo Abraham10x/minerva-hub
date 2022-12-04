@@ -13,7 +13,10 @@ const Beneficts: FC = () => {
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 m-auto z-30 mb-36 mt-10">
-          <div className="px-8 py-16 rounded-lg border border-[#DFDFD]">
+          <div
+            data-aos="flip-right"
+            className="px-8 py-16 rounded-lg border border-[#DFDFD]"
+          >
             <h2 className="text-2xl font-bold mb-3 mt-2">
               Do believing oh disposing to supported
             </h2>
@@ -22,7 +25,10 @@ const Beneficts: FC = () => {
               blush. Merits behind on afraid or warmly.
             </span>
           </div>
-          <div className="px-8 py-16 rounded-lg border border-[#DFDFD] shadow-2xl">
+          <div
+            data-aos="flip-right"
+            className="px-8 py-16 rounded-lg border border-[#DFDFD] shadow-2xl"
+          >
             <h2 className="text-2xl font-bold mb-3 mt-2">
               Do believing oh disposing to supported
             </h2>
@@ -31,7 +37,10 @@ const Beneficts: FC = () => {
               blush. Merits behind on afraid or warmly.
             </span>
           </div>
-          <div className="px-8 py-16 rounded-lg border border-[#DFDFD]">
+          <div
+            data-aos="flip-right"
+            className="px-8 py-16 rounded-lg border border-[#DFDFD]"
+          >
             <h2 className="text-2xl font-bold mb-3 mt-2">
               Do believing oh disposing to supported
             </h2>

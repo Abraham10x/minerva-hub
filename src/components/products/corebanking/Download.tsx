@@ -58,6 +58,7 @@ const Download: FC = () => {
           </div>
           <div className="relative basis-[45%]">
             <Image
+              data-aos="zoom-in-down"
               className="z-10"
               src="/img/products/plux/pluxhero.png"
               alt="team image"

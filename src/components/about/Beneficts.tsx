@@ -8,20 +8,23 @@ const Beneficts: FC = () => {
           <h2 className="text-3xl font-bold">Preference connect astonished</h2>
         </div>
         <div>
-          <div className="flex justify-center items-center">
+          <div
+            data-aos="flip-down"
+            className="flex justify-center items-center"
+          >
             <div className="bg-[#E9ECF2] w-16 h-16 mr-3"></div>
             <span className="text-[#64607D] font-bold text-lg w-3/5">
               Remove Enjoyed Explain
             </span>
           </div>
         </div>
-        <div className="flex justify-center items-center">
+        <div data-aos="flip-down" className="flex justify-center items-center">
           <div className="bg-[#E9ECF2] w-16 h-16 mr-3"></div>
           <span className="text-[#64607D] font-bold text-lg w-3/5">
             Supported Allowance
           </span>
         </div>
-        <div className="flex justify-center items-center">
+        <div data-aos="flip-down" className="flex justify-center items-center">
           <div className="bg-[#E9ECF2] w-16 h-16 mr-3"></div>
           <span className="text-[#64607D] font-bold text-lg w-10/12">
             Stable work & Lightweight

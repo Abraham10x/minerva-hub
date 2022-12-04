@@ -34,7 +34,7 @@ const Hero: FC = () => {
             </LinkButton>
           </div>
         </div>
-        <div className="basis-7/12">
+        <div className="basis-7/12" data-aos="zoom-in">
           <Image
             src="/img/home/header.png"
             alt="transction"

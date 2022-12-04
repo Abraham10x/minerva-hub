@@ -11,6 +11,8 @@ const Features: FC = () => {
         <div className="flex flex-col-reverse sm:flex-row gap-x-36 gap-y-10 py-28 ">
           <div className="relative basis-[50%] flex justify-center items-center">
             <Image
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
               className="z-10 "
               src="/img/products/plux/pluxhero.png"
               alt="team image"
@@ -38,6 +40,8 @@ const Features: FC = () => {
         <div className="flex flex-col-reverse sm:flex-row-reverse gap-x-36 gap-y-10 py-10 ">
           <div className="relative basis-[50%] flex justify-center items-center            ">
             <Image
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
               className="z-10"
               src="/img/products/plux/pluxhero.png"
               alt="team image"
@@ -64,6 +68,8 @@ const Features: FC = () => {
         <div className="flex flex-col-reverse sm:flex-row gap-x-36 gap-y-10 py-10">
           <div className="relative basis-[50%] flex justify-center items-center">
             <Image
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
               className="z-10"
               src="/img/products/plux/pluxhero.png"
               alt="team image"
