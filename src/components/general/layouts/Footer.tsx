@@ -9,7 +9,7 @@ const Footer: FC = () => {
   return (
     <footer className="bg-white">
       <div className="container pt-12 pb-8 2xl:px-0">
-        <div className="flex flex-col sm:flex-row justify-center flex-wrap pb-10 text-center sm:text-left sm:gap-20 lg:gap-10">
+        <div className="flex flex-col sm:flex-row justify-center flex-wrap pb-10 text-center sm:text-left gap-y-10 sm:gap-20 lg:gap-10">
           <div className="basis-full sm:basis-[40%] lg:basis-[35%]">
             <Link href="/">
               <figure>
@@ -25,8 +25,8 @@ const Footer: FC = () => {
               </figure>
             </Link>
             <p className="text-gray-900 font-medium text-base ">
-              Yet bed any for travelling assistance indulgence unpleasing. Not
-              thoughts all exercise blessing. Indulgence.
+              We provide software products and services to corporate entities as
+              well as individuals.
             </p>
             <div>
               <SocialIcons />
@@ -35,27 +35,30 @@ const Footer: FC = () => {
           <FooterLinks
             header="Company"
             data={[
-              { url: "/", linkText: "About Us" },
-              { url: "/", linkText: "Careers" },
-              { url: "/", linkText: "FAQs" },
-              { url: "/", linkText: "Contact Us" },
+              { url: "/about", linkText: "About Us" },
+              { url: "/careers", linkText: "Careers" },
+              { url: "/faqs", linkText: "FAQs" },
+              { url: "/contact", linkText: "Contact Us" },
             ]}
           />
           <FooterLinks
             header="Resources"
             data={[
-              { url: "/", linkText: "Contract" },
-              { url: "/", linkText: "Proposal Template" },
-              { url: "/", linkText: "Tuturoial" },
-              { url: "/", linkText: "Invoice Template" },
+              { url: "/about/#core-values", linkText: "Our Values" },
+              { url: "/about/#core-team", linkText: "Core Team" },
+              { url: "/#our-products", linkText: "Products" },
+              { url: "/careers/#open-postions", linkText: "Open Postions" },
             ]}
           />
           <FooterLinks
             header="Products"
             data={[
-              { url: "/", linkText: "School Managment Web App" },
-              { url: "/", linkText: "Core Banking Mobile App" },
-              { url: "/", linkText: "Plux Mobile App" },
+              { url: "/product/school", linkText: "School Managment Web App" },
+              {
+                url: "/product/corebanking",
+                linkText: "Core Banking Mobile App",
+              },
+              { url: "/product/plux", linkText: "Plux Mobile App" },
             ]}
           />
         </div>

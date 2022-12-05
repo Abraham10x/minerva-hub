@@ -11,6 +11,21 @@ const Main: FC = () => {
             Send your application and we will get back to you shortly.
           </p>
           <form className="w-full">
+            {/* Full Name */}
+            <label
+              htmlFor="input-name"
+              className="block text-base font-medium mb-2 mt-8 dark:text-[#021145]"
+            >
+              Email Address
+            </label>
+            <input
+              type="text"
+              id="input-name"
+              className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-blue-500 focus:ring-blue-blue-500 dark:bg-gray-100 dark:border-gray-700 dark:text-gray-600"
+              placeholder="eg John Smith"
+              aria-describedby="input-name"
+            />
+
             {/* Email */}
             <label
               htmlFor="input-email"
@@ -23,7 +38,7 @@ const Main: FC = () => {
               id="input-email"
               className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-blue-500 focus:ring-blue-blue-500 dark:bg-gray-100 dark:border-gray-700 dark:text-gray-600"
               placeholder="you@site.com"
-              aria-describedby="hs-input-helper-text"
+              aria-describedby="input-email"
             />
 
             {/* Portfolio */}
@@ -58,6 +73,21 @@ const Main: FC = () => {
               aria-describedby="hs-input-helper-text"
             />
 
+            {/* File  */}
+            <label
+              htmlFor="input-file"
+              className="block text-base font-medium mb-2 mt-8 dark:text-[#021145]"
+            >
+              CV/Resume
+            </label>
+            <input
+              type="text"
+              id="input-file"
+              className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-blue-500 focus:ring-blue-blue-500 dark:bg-gray-100 dark:border-gray-700 dark:text-gray-600"
+              placeholder="Enter Your Link To Your CV"
+              aria-describedby="input-name"
+            />
+
             {/* About yourself */}
 
             <label
@@ -73,25 +103,11 @@ const Main: FC = () => {
             >
               About Yourself
             </textarea>
-            <div className="flex flex-row gap-x-9 mt-6 align-middle">
-              <label
-                htmlFor="input-label-with-helper-text"
-                className="block text-base font-medium mb-2 mt-8 dark:text-[#021145]"
-              >
-                CV / Resume *
-              </label>
-              <div className="my-5">
-                <Button className=" text-base font-semibold text-white bg-secondary">
-                  <input type="file" className="hidden" />
-                  Upload your CV
-                </Button>
-              </div>
-            </div>
 
             {/* Button */}
             <SubmitButton
               type="sumbit"
-              className="text-2xl font-semibold text-white bg-secondary py-2 px-8 rounded-lg mt-9"
+              className="text-lg font-semibold text-white bg-secondary py-2 px-8 rounded-lg mt-9"
             >
               Apply Now
             </SubmitButton>

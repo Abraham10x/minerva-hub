@@ -7,6 +7,7 @@ interface AppProps {
   link?: string;
   type?: any;
   onClick?: any;
+  target?: any;
 }
 
 export const Button: FC<AppProps> = ({
@@ -43,9 +44,10 @@ export const LinkButton: FC<AppProps> = ({
   className,
   link,
   onClick,
+  target,
 }: AppProps) => {
   return (
-    <Link href={link ?? "#"}>
+    <Link href={link ?? "#"} target={target}>
       <button className={className} onClick={onClick}>
         {children}
       </button>

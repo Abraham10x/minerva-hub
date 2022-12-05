@@ -5,7 +5,10 @@ import { RiAddFill } from "react-icons/ri";
 
 const OpenPosition: FC = () => {
   return (
-    <div className="container sm:px-10 2xl:px-0 pt-10 lg:pt-10">
+    <div
+      className="container sm:px-10 2xl:px-0 pt-10 lg:pt-10"
+      id="open-postions"
+    >
       <h2 className="font-bold text-4xl text-[#2E2F6E] text-center">
         Open Positions
       </h2>
@@ -13,7 +16,7 @@ const OpenPosition: FC = () => {
         {PositionsData.map((data, index) => (
           <>
             <div
-              className="flex flex-row justify-between px-9 sm:px-20 py-6 shadow-2xl cursor-pointer rounded-full my-11"
+              className="flex flex-row justify-between px-9 sm:px-20 py-6 shadow-2xl cursor-pointer rounded-3xl sm:rounded-full my-11"
               data-hs-overlay={`#${data.modal}`}
               key={index}
             >
@@ -68,12 +71,16 @@ const OpenPosition: FC = () => {
                           </h4>
                           <p className="text-lg mt-3">{data.experience}</p>
                         </div>
-                        <div>
-                          <h4 className="font-bold text-xl text-blue">
-                            Seniority Level
-                          </h4>
-                          <p className="text-lg mt-3">{data.seniorityLevel}</p>
-                        </div>
+                        {data.seniorityLevel && (
+                          <div>
+                            <h4 className="font-bold text-xl text-blue">
+                              Seniority Level
+                            </h4>
+                            <p className="text-lg mt-3">
+                              {data.seniorityLevel}
+                            </p>
+                          </div>
+                        )}
                         <div>
                           <h4 className="font-bold text-xl text-blue">
                             Employment Type
@@ -119,7 +126,7 @@ const OpenPosition: FC = () => {
                   >
                     <LinkButton
                       className="py-3 px-8 inline-flex justify-center items-center gap-2 rounded-lg border border-transparent font-semibold bg-blue text-white hover:bg-blue/60 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-base "
-                      link="/jobApplication"
+                      link="/JobApplication"
                     >
                       Apply Now
                     </LinkButton>

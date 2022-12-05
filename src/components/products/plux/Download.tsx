@@ -11,14 +11,14 @@ const Download: FC = () => {
             <h3 className="text-5xl lg:text-7xl font-bold text-[#313131]">
               Download App
             </h3>
-            <p className="text-xl text-[#575757] my-10">
+            <p className="text-lg text-[#575757] my-10">
               Wisdom new and valley answer. Contented it so is discourse
               recommend. Man its upon him call mile. An pasture he himself
               believe ferrars besides cottage.
             </p>
             <div className="flex flex-col md:flex-row">
               <LinkButton
-                link="/"
+                link="#"
                 className="flex flex-row bg-black text-white rounded-lg px-6 py-3 m-2"
               >
                 <div>
@@ -36,7 +36,8 @@ const Download: FC = () => {
                 </div>
               </LinkButton>
               <LinkButton
-                link="/"
+                target="_blank"
+                link="https://play.google.com/store/apps/details?id=com.myminervahub.plutus"
                 className="flex flex-row bg-black text-white rounded-lg px-4 py-3 m-2"
               >
                 <div>
@@ -55,14 +56,14 @@ const Download: FC = () => {
               </LinkButton>
             </div>
           </div>
-          <div className="relative basis-[45%]">
+          <div className="relative basis-[45%] lg:bottom-24">
             <Image
               data-aos="zoom-in-down"
               className="z-10"
-              src="/img/products/plux/pluxhero.png"
+              src="/img/products/plux/plux.png"
               alt="team image"
-              width={350}
-              height={350}
+              width={1000}
+              height={1000}
             />
           </div>
         </div>

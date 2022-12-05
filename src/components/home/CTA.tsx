@@ -20,7 +20,7 @@ const CTA: FC = () => {
             Contact Us
           </LinkButton>
         </div>
-        <div className="w-[37%] pr-14">
+        <div className="w-full sm:w-[50%] lg:w-[37%] pr-14">
           <Image
             src="/img/home/globe.png"
             alt="globe"

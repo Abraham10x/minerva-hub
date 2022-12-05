@@ -23,7 +23,7 @@ const Features: FC = () => {
           </div>
           <div className="mt-10 sm:mt-36 basis-[50%]">
             <h3 className="text-5xl font-semibold text-[#000F37]">
-              Smart Home’s Smart Services
+              Automated Savings and Loan Management
             </h3>
             <p className="text-xl text-[#575757] mt-8">
               Ye am depending propriety sweetness distrusts belonging collected.
@@ -52,14 +52,11 @@ const Features: FC = () => {
           </div>
           <div className="mt-10 sm:mt-36 basis-[50%]">
             <h3 className="text-5xl font-semibold text-[#000F37]">
-              Smart Home’s Smart Services
+              transactions through Card, USSD and Bank Transfer
             </h3>
             <p className="text-xl text-[#575757] mt-8">
-              Ye am depending propriety sweetness distrusts belonging collected.
-              Smiling mention he in thought equally musical. Wisdom new and
-              valley answer. Contented it so is discourse recommend. Man its
-              upon him call mile. An pasture he himself believe ferrars besides
-              cottage.
+              Designated mobile App to perform transactions through Card, USSD
+              and Bank Transfer
             </p>
           </div>
         </div>
@@ -80,14 +77,10 @@ const Features: FC = () => {
           </div>
           <div className="mt-10 sm:mt-36 basis-[50%]">
             <h3 className="text-5xl font-semibold text-[#000F37]">
-              Smart Home’s Smart Services
+              Self-customizable notifications
             </h3>
             <p className="text-xl text-[#575757] mt-8">
-              Ye am depending propriety sweetness distrusts belonging collected.
-              Smiling mention he in thought equally musical. Wisdom new and
-              valley answer. Contented it so is discourse recommend. Man its
-              upon him call mile. An pasture he himself believe ferrars besides
-              cottage.
+              Self-customizable notifications for members/customers transactions
             </p>
           </div>
         </div>

@@ -10,7 +10,7 @@ const testimonial = [
         value we give to our students through impacting of education 
         as the application runs our activities for us seamlessly ”
     `,
-    image: "/img/home/taylor.png",
+    image: "/img/home/user-photo.png",
     name: "Janet Nana Jacobs",
     company: "(Proprietor) Little Gifts Academy",
   },
@@ -20,7 +20,7 @@ const testimonial = [
         “ We are already opening branches in less than a month we 
         started using MinervaHub’s Core Banking Application ”
     `,
-    image: "/img/home/taylor.png",
+    image: "/img/home/user-photo.png",
     name: "Uchenna Ojukwu",
     company: "(MD) Royal Marshal Cooperative",
   },
@@ -30,7 +30,7 @@ const testimonial = [
       “ Minervahub has been a blessing in disguise since we start 
       partnering with them we have been growing ”
     `,
-    image: "/img/home/taylor.png",
+    image: "/img/home/user-photo.png",
     name: "Jacob Asobo",
     company: "(General Manager) Desal-mcs",
   },
@@ -51,18 +51,18 @@ const Testimonial: FC = () => {
               className="basis-2/6 border-2 relative rounded-2xl px-5 py-6"
             >
               <p className="font-light text-base italic pb-5">{data.body}</p>
-              <div className="flex flex-row mt-7 gap-8 absolute bottom-5 w-[90%] border-t text-gray-500 pt-3">
-                <div className="rounded-full  bg-blue">
+              <div className="flex flex-row mt-7 gap-6 absolute bottom-5 w-[90%] border-t text-gray-500 pt-3">
+                <div className="rounded-full">
                   {" "}
                   <Image
                     className="rounded-full object-cover"
                     src={data.image}
                     alt="taylor"
-                    width={40}
-                    height={40}
+                    width={50}
+                    height={50}
                   />
                 </div>
-                <div className="flex flex-col gap-2">
+                <div className="flex flex-col gap-1">
                   <h5 className="font-bold text-base">{data.name}</h5>
                   <p className="italic text-gray-500 text-sm">{data.company}</p>
                 </div>

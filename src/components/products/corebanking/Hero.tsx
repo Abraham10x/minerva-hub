@@ -8,16 +8,18 @@ const Hero: FC = () => {
       <div className="container sm:px-10 2xl:px-0 flex flex-col sm:flex-row gap-10 py-32 align-middle">
         <div className="flex flex-col basis-5/12 mt-5 lg:mt-28">
           <h1 className="text-6xl my-4 font-sans text-center sm:text-left font-bold text-white">
-            Core Banking
+            Core Banking Application (OZI)
           </h1>
           <p className="text-lg text-[#FAFAFA]">
-            Wisdom new and valley answer. Contented it so is discourse
-            recommend. Man its upon him call mile. An pasture he himself believe
-            ferrars besides cottage.
+            Our Core Banking Application is an improved Banking platform As A
+            Service (BAAS), for Microfinance Banks and Institutions, Thrift
+            operators, Cooperative Societies, Fintech, Savings and Loans,
+            Micro-Credit etc
           </p>
           <div className="flex flex-col md:flex-row mt-8">
             <LinkButton
-              link="/"
+              target="_blank"
+              link="#"
               className="flex flex-row bg-black text-white rounded-lg px-6 py-3 m-2"
             >
               <div>
@@ -35,7 +37,8 @@ const Hero: FC = () => {
               </div>
             </LinkButton>
             <LinkButton
-              link="/"
+              target="_blank"
+              link="https://play.google.com/store/apps/details?id=com.myminervahub.ozi_signup_ui"
               className="flex flex-row bg-black text-white rounded-lg px-4 py-3 m-2"
             >
               <div>

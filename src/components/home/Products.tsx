@@ -4,14 +4,14 @@ import { FC } from "react";
 
 const Product: FC = () => {
   return (
-    <div className="">
+    <div className="" id="our-products">
       <h2 className="font-bold text-5xl text-blue container sm:px-10">
         Products
       </h2>
       <div className="mt-10">
         {/* first product */}
         <div className="bg-product bg-top bg-no-repeat bg-cover">
-          <div className="container sm:px-10 flex flex-col lg:flex-row gap-y-10">
+          <div className="container sm:px-10 flex flex-col lg:flex-row gap-y-10 justify-between">
             <div className=" basis-[45%] mt-32">
               <h3 className="font-bold text-[2.8rem] leading-tight capitalize">
                 Core Banking Application (OZI)
@@ -64,7 +64,10 @@ const Product: FC = () => {
                 Get Started
               </LinkButton>
             </div>
-            <div data-aos="zoom-out-up" className="basis-[55%] mt-10 lg:mt-0">
+            <div
+              data-aos="zoom-out-up"
+              className="basis-[55%] mt-10 lg:mt-0 relative lg:bottom-20"
+            >
               <Image
                 src="/img/home/Banking.png"
                 alt="Banking App"
@@ -125,7 +128,10 @@ const Product: FC = () => {
                 Get Started
               </LinkButton>
             </div>
-            <div data-aos="zoom-out-up" className="basis-[55%] mt-10 lg:mt-0">
+            <div
+              data-aos="zoom-out-up"
+              className="basis-[55%] mt-10 lg:mt-0 relative lg:bottom-28"
+            >
               <Image
                 src="/img/home/plux.png"
                 alt="Banking App"
@@ -139,7 +145,7 @@ const Product: FC = () => {
         {/* third Product */}
         <div className="bg-product bg-top bg-no-repeat bg-cover">
           <div className="container sm:px-10 flex flex-col lg:flex-row gap-x-32 gap-y-10">
-            <div className=" basis-[45%] mt-32">
+            <div className=" basis-[45%] mt-20">
               <h3 className="font-bold text-[2.8rem] leading-tight capitalize">
                 School Management System
               </h3>
