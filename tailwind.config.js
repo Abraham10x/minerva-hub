@@ -32,7 +32,7 @@ module.exports = {
       grayBg: "#F9F9F9",
     },
     fontFamily: {
-      sans: ["Red Hat Text", "sans-serif"],
+      sans: ["Montserrat", "sans-serif"],
     },
     extend: {
       backgroundImage: {
