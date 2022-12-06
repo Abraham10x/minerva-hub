@@ -11,7 +11,7 @@ const parnters = [
 
 const Parnter: FC = () => {
   return (
-    <div className="mb-24 mt-44 text-center container sm:px-10">
+    <div className="mb-24 text-center container sm:px-10">
       <h3 className="text-center font-bold text-4xl">Our Trusted Parnters</h3>
       <div className="flex flex-wrap gap-6 mt-6 justify-center">
         {parnters.map((data, index) => (

@@ -4,7 +4,7 @@ import { FC } from "react";
 
 const Hero: FC = () => {
   return (
-    <div className="bg-careerBg bg-no-repeat bg-cover mt-[5.6rem] lg:h-screen">
+    <div className="bg-careerBg bg-no-repeat bg-cover mt-[5.6rem]">
       <div className="container sm:px-10 2xl:px-0 flex flex-col sm:flex-row gap-10 pt-32 align-middle">
         <div className="flex flex-col basis-5/12 mt-5 lg:mt-28">
           <h1 className="text-6xl my-4 font-sans text-center sm:text-left font-bold text-white">

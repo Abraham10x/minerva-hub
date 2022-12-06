@@ -9,78 +9,80 @@ const Features: FC = () => {
           Core Features
         </h2>
         <div className="flex flex-col-reverse sm:flex-row gap-x-36 gap-y-10 py-28 ">
-          <div className="relative basis-[50%] flex justify-center items-center">
+          <div className="relative basis-[50%] flex justify-between items-center lg:bottom-36">
             <Image
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
               className="z-10 "
-              src="/img/products/plux/pluxhero.png"
+              src="/img/products/banking/feature-1.png"
               alt="team image"
-              width={350}
-              height={350}
+              width={700}
+              height={700}
             />
-            <div className="w-full h-[40%] absolute bottom-5 bg-blue -z-20"></div>
+            <div className="w-full h-[40%] absolute lg:bottom-32 bg-blue -z-20"></div>
           </div>
           <div className="mt-10 sm:mt-36 basis-[50%]">
             <h3 className="text-5xl font-semibold text-[#000F37]">
               Automated Savings and Loan Management
             </h3>
             <p className="text-xl text-[#575757] mt-8">
-              Ye am depending propriety sweetness distrusts belonging collected.
-              Smiling mention he in thought equally musical. Wisdom new and
-              valley answer. Contented it so is discourse recommend. Man its
-              upon him call mile. An pasture he himself believe ferrars besides
-              cottage.
+              It is clear that modern automation software for financial services
+              providers usually comes as a full package, a solution that covers
+              every part of the process.
             </p>
           </div>
         </div>
 
         {/* second */}
 
-        <div className="flex flex-col-reverse sm:flex-row-reverse gap-x-36 gap-y-10 py-10 ">
-          <div className="relative basis-[50%] flex justify-center items-center            ">
+        <div className="flex flex-col-reverse sm:flex-row-reverse gap-x-36 gap-y-10 py-10 lg:h-[50%]">
+          <div className="relative basis-[50%] flex justify-between items-center lg:bottom-36">
             <Image
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
               className="z-10"
-              src="/img/products/plux/pluxhero.png"
+              src="/img/products/banking/feature-2.png"
               alt="team image"
-              width={350}
-              height={350}
+              width={700}
+              height={700}
             />
-            <div className="w-full h-[40%] absolute bottom-5 bg-blue -z-20"></div>
+            <div className="w-full h-[40%] absolute lg:bottom-32 bg-blue -z-20"></div>
           </div>
           <div className="mt-10 sm:mt-36 basis-[50%]">
             <h3 className="text-5xl font-semibold text-[#000F37]">
-              transactions through Card, USSD and Bank Transfer
+              Transactions through Card, USSD and Bank Transfer
             </h3>
             <p className="text-xl text-[#575757] mt-8">
               Designated mobile App to perform transactions through Card, USSD
-              and Bank Transfer
+              and Bank Transfer You don’t need Internet data on your phone to
+              enjoy the USSD code
             </p>
           </div>
         </div>
 
         {/* third  */}
-        <div className="flex flex-col-reverse sm:flex-row gap-x-36 gap-y-10 py-10">
-          <div className="relative basis-[50%] flex justify-center items-center">
+        <div className="flex flex-col-reverse sm:flex-row gap-x-36 gap-y-10 py-10 lg:h-screen">
+          <div className="relative basis-[50%] flex justify-between lg:bottom-36 items-center">
             <Image
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
               className="z-10"
-              src="/img/products/plux/pluxhero.png"
+              src="/img/products/banking/feature-3.png"
               alt="team image"
-              width={350}
-              height={350}
+              width={700}
+              height={700}
             />
-            <div className="w-full h-[40%] absolute bottom-5 bg-blue -z-20"></div>
+            <div className="w-full h-[40%] absolute lg:bottom-32 bg-blue -z-20"></div>
           </div>
           <div className="mt-10 sm:mt-36 basis-[50%]">
             <h3 className="text-5xl font-semibold text-[#000F37]">
               Self-customizable notifications
             </h3>
             <p className="text-xl text-[#575757] mt-8">
-              Self-customizable notifications for members/customers transactions
+              Personalized Push notifications are real-time updates and
+              reminders that are customized as per the user behaviour and
+              journey. We Offer Self-customizable notifications for
+              members/customers transactions
             </p>
           </div>
         </div>

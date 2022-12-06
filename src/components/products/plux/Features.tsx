@@ -9,8 +9,8 @@ const Features: FC = () => {
           Core Features
         </h2>
         {/* first */}
-        <div className="flex flex-col-reverse sm:flex-row gap-x-36 gap-y-10 pt-28">
-          <div className="relative basis-[50%] flex justify-center items-center lg:bottom-36">
+        <div className="flex flex-col-reverse sm:flex-row gap-x-36 gap-y-10 pt-28 lg:h-screen">
+          <div className="relative basis-[50%] flex justify-between items-center lg:bottom-36">
             <Image
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
@@ -27,11 +27,9 @@ const Features: FC = () => {
               Zero commission charge
             </h3>
             <p className="text-lg text-[#575757] mt-8">
-              Ye am depending propriety sweetness distrusts belonging collected.
-              Smiling mention he in thought equally musical. Wisdom new and
-              valley answer. Contented it so is discourse recommend. Man its
-              upon him call mile. An pasture he himself believe ferrars besides
-              cottage.
+              Commission-free trading just means that we don't charge you for
+              any transaction on our platform. And the benefit is that more of
+              your money gets spent on investing rather than fees.
             </p>
           </div>
         </div>
@@ -39,7 +37,7 @@ const Features: FC = () => {
         {/* second */}
 
         <div className="flex flex-col-reverse sm:flex-row-reverse gap-x-36 gap-y-10 py-10 lg:py-0 ">
-          <div className="relative basis-[50%] flex justify-center items-center lg:bottom-36">
+          <div className="relative basis-[50%] flex justify-between items-center lg:bottom-36">
             <Image
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
@@ -53,21 +51,20 @@ const Features: FC = () => {
           </div>
           <div className="mt-10 sm:mt-36 basis-[50%]">
             <h3 className="text-5xl font-semibold text-[#000F37]">
-              make payments for both prepaid and postpaid
+              Make Payments For Both Prepaid and Postpaid
             </h3>
             <p className="text-lg text-[#575757] mt-8">
-              Ye am depending propriety sweetness distrusts belonging collected.
-              Smiling mention he in thought equally musical. Wisdom new and
-              valley answer. Contented it so is discourse recommend. Man its
-              upon him call mile. An pasture he himself believe ferrars besides
-              cottage.
+              Prepaid connections can be an excellent choice for students and
+              those looking for cost-effective options, while Postpaid
+              connections may be preferable for people with fixed salaries
+              because they can easily pay their bills
             </p>
           </div>
         </div>
 
         {/* third  */}
         <div className="flex flex-col-reverse sm:flex-row gap-x-36 gap-y-10 py-10">
-          <div className="relative basis-[50%] flex justify-center items-center lg:bottom-36">
+          <div className="relative basis-[50%] flex justify-between items-center lg:bottom-36">
             <Image
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
@@ -84,11 +81,12 @@ const Features: FC = () => {
               Easy payment tracking
             </h3>
             <p className="text-lg text-[#575757] mt-8">
-              Ye am depending propriety sweetness distrusts belonging collected.
-              Smiling mention he in thought equally musical. Wisdom new and
-              valley answer. Contented it so is discourse recommend. Man its
-              upon him call mile. An pasture he himself believe ferrars besides
-              cottage.
+              Payment Tracking System is a system for tracking and managing the
+              payments for various vendors. It provides a single point of
+              contact that consolidates payment requests from the accounts
+              department to the top management to deliver the supplier payments
+              on time, using integrated best practices to manage operations and
+              services.
             </p>
           </div>
         </div>

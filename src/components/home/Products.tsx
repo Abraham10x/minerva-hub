@@ -8,10 +8,10 @@ const Product: FC = () => {
       <h2 className="font-bold text-5xl text-blue container sm:px-10">
         Products
       </h2>
-      <div className="mt-10">
+      <div className="mt-10 pb-44">
         {/* first product */}
         <div className="bg-product bg-top bg-no-repeat bg-cover">
-          <div className="container sm:px-10 flex flex-col lg:flex-row gap-y-10 justify-between">
+          <div className="container sm:px-10 flex flex-col lg:flex-row gap-x-32 gap-y-10 justify-between">
             <div className=" basis-[45%] mt-32">
               <h3 className="font-bold text-[2.8rem] leading-tight capitalize">
                 Core Banking Application (OZI)
@@ -81,7 +81,7 @@ const Product: FC = () => {
         {/* second products */}
 
         <div className="bg-product bg-top bg-no-repeat bg-cover">
-          <div className="container sm:px-10 flex flex-col lg:flex-row-reverse gap-y-10">
+          <div className="container sm:px-10 flex flex-col lg:flex-row-reverse gap-x-32 gap-y-10">
             <div className=" basis-[45%] mt-32">
               <h3 className="font-bold text-[2.8rem] leading-10 capitalize">
                 Plux

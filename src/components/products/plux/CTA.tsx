@@ -5,7 +5,7 @@ import { FC } from "react";
 const CTA: FC = () => {
   return (
     <div className="container sm:px-10 2xl:px-0 mt-10 mb-32">
-      <div className="bg-[#3734A9] rounded-3xl flex flex-col sm:flex-row justify-around py-20 px-10 relative">
+      <div className="bg-[#3734A9] rounded-3xl flex flex-col sm:flex-row justify-around py-20 px-10 relative h-fit">
         <div>
           <h3 className="text-5xl font-semibold text-[#F5F2FF]">
             Subscribe to get updated

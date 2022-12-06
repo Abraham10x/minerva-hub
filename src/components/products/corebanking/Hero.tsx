@@ -4,9 +4,9 @@ import { FC } from "react";
 
 const Hero: FC = () => {
   return (
-    <div className="bg-careerBg bg-no-repeat bg-cover">
-      <div className="container sm:px-10 2xl:px-0 flex flex-col sm:flex-row gap-10 py-32 align-middle">
-        <div className="flex flex-col basis-5/12 mt-5 lg:mt-28">
+    <div className="bg-careerBg bg-no-repeat bg-cover mt-[5.6rem]">
+      <div className="container sm:px-10 2xl:px-0 flex flex-col sm:flex-row gap-10 pt-32 align-middle">
+        <div className="flex flex-col basis-5/12 mt-5 lg:mt-40">
           <h1 className="text-6xl my-4 font-sans text-center sm:text-left font-bold text-white">
             Core Banking Application (OZI)
           </h1>
@@ -60,14 +60,14 @@ const Hero: FC = () => {
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
-          className="basis-7/12 flex justify-center items-center"
+          className="basis-7/12 flex justify-center items-center relative lg:bottom-40"
         >
           <Image
             className="rounded-3xl"
-            src="/img/products/plux/pluxhero.png"
+            src="/img/products/banking/banking.png"
             alt="team image"
-            width={350}
-            height={350}
+            width={700}
+            height={700}
           />
         </div>
       </div>

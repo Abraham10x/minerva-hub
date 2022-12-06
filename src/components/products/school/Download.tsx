@@ -9,16 +9,18 @@ const Download: FC = () => {
         <div className="flex flex-col sm:flex-row gap-36 py-28">
           <div className="mt-5 sm:mt-36 basis-[45%]">
             <h3 className="text-5xl lg:text-7xl font-bold text-[#313131]">
-              Download App
+              Visit Our App
             </h3>
             <p className="text-xl text-[#575757] my-10">
-              Wisdom new and valley answer. Contented it so is discourse
-              recommend. Man its upon him call mile. An pasture he himself
-              believe ferrars besides cottage.
+              Maximize productivity, reduce cost, save time & effort, prevent
+              financial leakage, track and preserve school records, easily
+              compile and transmit students result and reduce the cost of
+              running your school
             </p>
             <div className="flex mt-10 gap-x-6 sm:gap-x-10 flex-wrap gap-y-6 justify-center lg:justify-start">
               <LinkButton
-                link="/"
+                target="_blank"
+                link="https://school.myminervahub.com/"
                 className="bg-secondary text-white rounded-full px-10 font-bold text-base py-3"
               >
                 View Product
@@ -29,7 +31,7 @@ const Download: FC = () => {
             <Image
               data-aos="zoom-in-down"
               className="z-10"
-              src="/img/products/school-hero.png"
+              src="/img/products/school/school.png"
               alt="team image"
               width={600}
               height={600}

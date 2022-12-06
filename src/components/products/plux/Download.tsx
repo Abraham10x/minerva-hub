@@ -12,9 +12,8 @@ const Download: FC = () => {
               Download App
             </h3>
             <p className="text-lg text-[#575757] my-10">
-              Wisdom new and valley answer. Contented it so is discourse
-              recommend. Man its upon him call mile. An pasture he himself
-              believe ferrars besides cottage.
+              Our Mobile App is now available on Google play store and the Apple
+              app store. please click on the appropiate button for your device
             </p>
             <div className="flex flex-col md:flex-row">
               <LinkButton
