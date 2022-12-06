@@ -3,7 +3,7 @@ import { FC } from "react";
 
 const Features: FC = () => {
   return (
-    <div className="relative mt-36">
+    <div className="relative my-36">
       <div className="container sm:px-10 2xl:px-0 bg-productBg bg-no-repeat bg-center">
         <h2 className="font-bold text-5xl text-[#313131] text-center">
           Core Features
@@ -14,7 +14,7 @@ const Features: FC = () => {
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
               className="z-10"
-              src="/img/products/school-hero.png"
+              src="/img/products/school/school.png"
               alt="team image"
               width={600}
               height={600}
@@ -23,14 +23,12 @@ const Features: FC = () => {
           </div>
           <div className="mt-10 sm:mt-36 basis-[50%]">
             <h3 className="text-5xl font-semibold text-[#000F37]">
-              Smart Home’s Smart Services
+              Auto-tracking and generation of all fees report
             </h3>
             <p className="text-xl text-[#575757] mt-8">
-              Ye am depending propriety sweetness distrusts belonging collected.
-              Smiling mention he in thought equally musical. Wisdom new and
-              valley answer. Contented it so is discourse recommend. Man its
-              upon him call mile. An pasture he himself believe ferrars besides
-              cottage.
+              Data is accessible by parents, teachers, students, and several
+              other participants in the process. Fees can be paid online by
+              parents or students without waiting at fee counters in schools.
             </p>
           </div>
         </div>
@@ -43,7 +41,7 @@ const Features: FC = () => {
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
               className="z-10"
-              src="/img/products/school-hero.png"
+              src="/img/products/school/school.png"
               alt="team image"
               width={600}
               height={600}
@@ -52,14 +50,12 @@ const Features: FC = () => {
           </div>
           <div className="mt-10 sm:mt-36 basis-[50%]">
             <h3 className="text-5xl font-semibold text-[#000F37]">
-              Smart Home’s Smart Services
+              Educational and Financial Management
             </h3>
             <p className="text-xl text-[#575757] mt-8">
-              Ye am depending propriety sweetness distrusts belonging collected.
-              Smiling mention he in thought equally musical. Wisdom new and
-              valley answer. Contented it so is discourse recommend. Man its
-              upon him call mile. An pasture he himself believe ferrars besides
-              cottage.
+              Financial management is the key to efficient handling of finances
+              in educational institutions. The term financial management doesn’t
+              only confine to budget management.
             </p>
           </div>
         </div>
@@ -71,7 +67,7 @@ const Features: FC = () => {
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
               className="z-10"
-              src="/img/products/school-hero.png"
+              src="/img/products/school/school.png"
               alt="team image"
               width={600}
               height={600}
@@ -80,14 +76,12 @@ const Features: FC = () => {
           </div>
           <div className="mt-10 sm:mt-36 basis-[50%]">
             <h3 className="text-5xl font-semibold text-[#000F37]">
-              Smart Home’s Smart Services
+              Generation of Staff and Students’ ID card
             </h3>
             <p className="text-xl text-[#575757] mt-8">
-              Ye am depending propriety sweetness distrusts belonging collected.
-              Smiling mention he in thought equally musical. Wisdom new and
-              valley answer. Contented it so is discourse recommend. Man its
-              upon him call mile. An pasture he himself believe ferrars besides
-              cottage.
+              The staff ID card is worn by the teaching and non-teaching staff
+              of the school/college/university, and it is more or less similar
+              to the student ID card in purpose.
             </p>
           </div>
         </div>

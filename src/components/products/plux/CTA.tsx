@@ -5,18 +5,18 @@ import { FC } from "react";
 const CTA: FC = () => {
   return (
     <div className="container sm:px-10 2xl:px-0 mt-10 mb-32">
-      <div className="bg-[#3734A9] rounded-3xl flex flex-col sm:flex-row justify-around py-20 px-10 relative">
+      <div className="bg-[#3734A9] rounded-3xl flex flex-col sm:flex-row justify-around py-20 px-10 relative h-fit">
         <div>
           <h3 className="text-5xl font-semibold text-[#F5F2FF]">
             Subscribe to get updated
           </h3>
           <p className="my-6 text-lg text-[#F5F2FF] w-full lg:w-5/6">
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui
-            blanditiis praesentium voluptatum deleniti atque .
+            Subscribe to our newsletter today and get updated with any new
+            products, product update etc
           </p>
         </div>
         <LinkButton
-          link=""
+          link="/contact"
           className="px-12 py-4 border rounded-lg border-[#FAFAFA] font-medium text-base text-[#FAFAFA] my-6"
         >
           Get started

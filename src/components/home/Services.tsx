@@ -6,35 +6,35 @@ const serviceData = [
     bg: "/img/home/1.svg",
     image: "/img/home/web-icon.svg",
     header: "Web Development",
-    body: `Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by.`,
+    body: ` We design, create and manage web apps to meet our customers satisfaction.`,
   },
   {
     bg: "/img/home/2.svg",
     image: "/img/home/mobile-icon.svg",
     header: "Mobile Development",
-    body: `Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by.`,
+    body: `We design, create and manage mobile (IOS and Android) apps to meet our customers’ satisfaction using the current state of the art technology.`,
   },
   {
     bg: "/img/home/3.svg",
     image: "/img/home/software.svg",
     header: "Software Development",
-    body: `Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by.`,
+    body: `We design, create and manage software to meet our customers satisfaction.`,
   },
 ];
 
 const Servces: FC = () => {
   return (
     <div className="container gap-y-24 gap-x-14 pb-32 sm:px-10">
-      <h2 className="font-bold text-5xl sm:w-2/4 text-blue">
+      <h2 className="font-bold text-5xl w-full lg:w-2/4 text-blue">
         We offer solutions for your business
       </h2>
       <div
         data-aos="fade-up"
-        className="flex flex-col sm:flex-row mt-24 gap-10 align-middle"
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-24 gap-10 align-middle"
       >
         {serviceData.map((data, index) => (
           <div
-            className="basis-[30%] bg-center"
+            className="bg-center"
             style={{
               backgroundImage: `url(${data.bg})`,
               backgroundRepeat: "no-repeat",

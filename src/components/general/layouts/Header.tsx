@@ -6,7 +6,7 @@ import Image from "next/image";
 const Header: FC = () => {
   const [open, setOpen] = useState<boolean>(false);
   return (
-    <div className="shadow-md w-full xl:static lg:static md:static sm:fixed top-0 left-0 bg-white sm:px-10 z-40">
+    <div className="shadow-md w-full fixed top-0 left-0 bg-white sm:px-10 z-40 bg-opacity-100 lg:bg-opacity-[0.93]">
       <div className="md:flex items-center justify-between  py-7 lg:py-0 px-7 sm:px-0 xl:container">
         <Link href="/" className="cursor-pointer">
           <figure>
@@ -28,7 +28,7 @@ const Header: FC = () => {
         </div>
 
         <ul
-          className={`lg:flex lg:items-center lg:pb-0 pb-12 absolute lg:static bg-white lg:z-auto z-[2] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-500 ease-in ${
+          className={`lg:flex lg:items-center lg:pb-0 pb-12 absolute lg:static lg:z-auto z-[2] left-0 w-full bg-white bg-opacity-100 lg:bg-opacity-[0.0] lg:w-auto lg:pl-0 pl-9 transition-all duration-500 ease-in ${
             open ? "top-[4.8rem] sm:top-[4.7rem]" : "top-[-1000px]"
           }`}
         >

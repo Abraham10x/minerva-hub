@@ -1,34 +1,48 @@
 import { FC } from "react";
 import Image from "next/image";
+import { AiFillDatabase } from "react-icons/ai";
+import { MdComputer } from "react-icons/md";
+import { SiGoogleclassroom } from "react-icons/si";
+import { GiTeacher } from "react-icons/gi";
 
 const BenefictsData = [
   {
-    image: "/img/contact/instagramicon.svg",
-    header: "No Extra Fee",
+    image: (
+      <AiFillDatabase size={40} color="#4F46BA" className="mx-auto my-auto" />
+    ),
+    header: "Database Management",
     body: `
-        Among sex are leave law built now. In built table in an rapid
-        blush. Merits behind on afraid or warmly.`,
+      We design and manage database and other backend services 
+      to our clients.
+    `,
   },
   {
-    image: "/img/contact/instagramicon.svg",
-    header: "No Extra Fee",
+    image: <MdComputer color="#4F46BA" size={40} className="mx-auto my-auto" />,
+    header: "Software Development",
     body: `
-        Among sex are leave law built now. In built table in an rapid
-        blush. Merits behind on afraid or warmly.`,
+      We help digitalize businesses by render web development, 
+      mobile app development, software tools development, 
+      API development.`,
   },
   {
-    image: "/img/contact/instagramicon.svg",
-    header: "No Extra Fee",
+    image: <GiTeacher size={40} color="#4F46BA" className="mx-auto my-auto" />,
+    header: "I.T Training",
     body: `
-        Among sex are leave law built now. In built table in an rapid
-        blush. Merits behind on afraid or warmly.`,
+      We provide I.T training (virtual and in-person) to both corporate 
+      organizations and individuals based on their needs.`,
   },
   {
-    image: "/img/contact/instagramicon.svg",
-    header: "No Extra Fee",
+    image: (
+      <SiGoogleclassroom
+        size={40}
+        color="#4F46BA"
+        className="mx-auto my-auto"
+      />
+    ),
+    header: "Coding Bootcamps",
     body: `
-        Among sex are leave law built now. In built table in an rapid
-        blush. Merits behind on afraid or warmly.`,
+      We provide coding bootcamps to corporate organizations, 
+      schools and individuals for all age brackets.`,
   },
 ];
 
@@ -54,13 +68,7 @@ const Choose: FC = () => {
               key={index}
             >
               <div className="w-32 h-14 mr-6  flex rounded-full bg-[#F7ECFD]">
-                <Image
-                  className="w-7/12 m-auto"
-                  alt="logo"
-                  src={data.image}
-                  width={10}
-                  height={10}
-                />
+                {data.image}
               </div>
               <div>
                 <h3 className="text-2xl font-bold mb-3">{data.header}</h3>

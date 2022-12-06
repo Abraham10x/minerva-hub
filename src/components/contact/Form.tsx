@@ -1,3 +1,4 @@
+import { SubmitButton } from "@components/general/Button";
 import { FC } from "react";
 
 const Form: FC = () => {
@@ -41,11 +42,13 @@ const Form: FC = () => {
             ></textarea>
           </div>
         </div>
-        <div>
-          <button className="py-2 px-5 rounded-xl bg-[#021145] text-white text-m">
-            Send Message
-          </button>
-        </div>
+        {/* Button */}
+        <SubmitButton
+          type="sumbit"
+          className="text-base font-semibold text-white bg-blue hover:bg-blue/80 py-3 px-10 rounded-lg"
+        >
+          Apply Now
+        </SubmitButton>
       </form>
     </div>
   );

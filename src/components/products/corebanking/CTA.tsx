@@ -11,12 +11,12 @@ const CTA: FC = () => {
             Subscribe to get updated
           </h3>
           <p className="my-6 text-lg text-[#F5F2FF] w-full lg:w-5/6">
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui
-            blanditiis praesentium voluptatum deleniti atque .
+            Subscribe to our newsletter today and get updated with any new
+            products, product update etc
           </p>
         </div>
         <LinkButton
-          link=""
+          link="/contact"
           className="px-12 py-4 border rounded-lg border-[#FAFAFA] font-medium text-base text-[#FAFAFA] my-6"
         >
           Get started

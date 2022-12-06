@@ -13,7 +13,7 @@ interface IProps {
 
 const FooterLinks: FC<IProps> = ({ header, data }: IProps) => {
   return (
-    <div className="basis-2/12">
+    <div className="basis-full sm:basis-[40%] lg:basis-2/12">
       <h4 className="mb-4 font-bold text-2xl font-sans">{header}</h4>
       <ul>
         {data.map((items, index) => (

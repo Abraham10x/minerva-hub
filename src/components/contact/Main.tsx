@@ -22,7 +22,7 @@ const Main: FC = () => {
                 <span className="text-xs text-[#868383]">
                   Call us on mobile
                 </span>
-                <p className="text-sm text-[#000000] font-bold">090226767898</p>
+                <p className="text-sm text-[#000000] font-bold">09033824052</p>
               </div>
             </div>
             <div className="flex rounded-xl w-full md:w-80 p-4  bg-[#FFFFFF]">
@@ -40,29 +40,12 @@ const Main: FC = () => {
                   You can also send an email to
                 </span>
                 <p className="text-sm text-[#000000] font-bold">
-                  help@minerva.com
+                  info@myminervahub.com
                 </p>
               </div>
             </div>
             <div className="flex rounded-xl w-full md:w-80 p-4  bg-[#FFFFFF]">
               <div className="rounded-full bg-[#bbbbbb] w-14 h-14 flex ">
-                <Image
-                  className="w-7/12 m-auto"
-                  alt="logo"
-                  src="/img/contact/twittericon.svg"
-                  width={10}
-                  height={10}
-                />
-              </div>
-              <div className="flex-col mx-3">
-                <span className="text-xs text-[#868383]">
-                  Follow us on Instagram
-                </span>
-                <p className="text-sm text-[#000000] font-bold"> @minervahub</p>
-              </div>
-            </div>
-            <div className="flex rounded-xl w-full md:w-80 p-4  bg-[#FFFFFF]">
-              <div className="rounded-full bg-[#bbbbbb] w-14 h-14 flex">
                 <Image
                   className="w-7/12 m-auto"
                   alt="logo"
@@ -73,9 +56,31 @@ const Main: FC = () => {
               </div>
               <div className="flex-col mx-3">
                 <span className="text-xs text-[#868383]">
+                  Follow us on Instagram
+                </span>
+                <p className="text-sm text-[#000000] font-bold">
+                  {" "}
+                  @myminervahub
+                </p>
+              </div>
+            </div>
+            <div className="flex rounded-xl w-full md:w-80 p-4  bg-[#FFFFFF]">
+              <div className="rounded-full bg-[#bbbbbb] w-14 h-14 flex">
+                <Image
+                  className="w-7/12 m-auto"
+                  alt="logo"
+                  src="/img/contact/twittericon.svg"
+                  width={10}
+                  height={10}
+                />
+              </div>
+              <div className="flex-col mx-3">
+                <span className="text-xs text-[#868383]">
                   Follow us on Twitter
                 </span>
-                <p className="text-sm text-[#000000] font-bold">@minervahub</p>
+                <p className="text-sm text-[#000000] font-bold">
+                  @myminervahub
+                </p>
               </div>
             </div>
           </div>
