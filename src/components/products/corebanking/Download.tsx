@@ -36,7 +36,8 @@ const Download: FC = () => {
                 </div>
               </LinkButton>
               <LinkButton
-                link="/"
+                target="_blank"
+                link="https://play.google.com/store/apps/details?id=com.myminervahub.ozi_signup_ui"
                 className="flex flex-row bg-black text-white rounded-lg px-4 py-3 m-2"
               >
                 <div>
