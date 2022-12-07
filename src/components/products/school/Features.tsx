@@ -14,7 +14,7 @@ const Features: FC = () => {
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
               className="z-10"
-              src="/img/products/school/school.png"
+              src="/img/products/school/feature-1.png"
               alt="team image"
               width={600}
               height={600}
@@ -41,7 +41,7 @@ const Features: FC = () => {
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
               className="z-10"
-              src="/img/products/school/school.png"
+              src="/img/products/school/feature-2.png"
               alt="team image"
               width={600}
               height={600}
@@ -67,7 +67,7 @@ const Features: FC = () => {
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
               className="z-10"
-              src="/img/products/school/school.png"
+              src="/img/products/school/feature-3.png"
               alt="team image"
               width={600}
               height={600}
